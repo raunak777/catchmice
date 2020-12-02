@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Mice catch</title>
+        <link rel="stylesheet" href="style.css">
+      
+    </head>
+    <body>
+        <div>
+        <p class="overst" id="over"></p>
+        <button onclick="back()" class="btn1" style="display: none;" id="bckbtn">Back</button>
+        </div>
+        <div class="firstdiv" id="start">
+        <p class="scr">Score is: <span id="scr">0</span> &emsp;&emsp;
+            <label>High Score: <span id="hgscore"></span></label>
+            <label style="margin-left: 40px;">Chance Left: <span id="chance">5</span></label>
+       <label style="margin-left: 50px;">Game Over in- <span id="time">00:30</span></label>
+        </span></p>
+        <div class="dvStyle mouse" id="dv1" onclick="score(1)"></div>
+        <div class="dvStyle mouse" id="dv2" onclick="score(2)"></div>
+        <div class="dvStyle mouse" id="dv3" onclick="score(3)"></div>
+        <div class="dvStyle mouse" id="dv4" onclick="score(4)"></div>
+        <div class="dvStyle mouse" id='dv5' onclick="score(5)"></div>
+        <div class="dvStyle mouse" id="dv6" onclick="score(6)"></div>
+        <div class="dvStyle mouse" id="dv7" onclick="score(7)"></div>
+        <div class="dvStyle mouse" id="dv8" onclick="score(8)"></div>
+        <div class="dvStyle mouse" id="dv9" onclick="score(9)"></div>
+        <div class="dvStyle mouse" id='dv10'onclick="score(10)"></div>
+        <div class="dvStyle mouse" id="dv11" onclick="score(11)"></div>
+        <div class="dvStyle mouse" id="dv12" onclick="score(12)"></div>
+        <div class="dvStyle mouse" id="dv13" onclick="score(13)"></div>
+        <div class="dvStyle mouse" id="dv14" onclick="score(14)"></div>
+        <div class="dvStyle mouse" id='dv15' onclick="score(15)"></div>
+        <div class="dvStyle mouse" id='dv16' onclick="score(16)"></div><br><br><br>
+        </div>
+        <div style="text-align: center; margin-top: 10px;" id="hidebtn"><button class="btn" type="button" onclick="cont();">Start</button>
+        <button class="btn" type="button" onclick="stop();">Over</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

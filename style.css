@@ -1,0 +1,87 @@
+body{
+    background-image: url(mm.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+.firstdiv{
+    width: 100%;
+    height: 540px;
+    margin-left: 10%;
+}
+
+.dvStyle{
+    border: 2px solid black;
+    width: 20%;
+    float: left;
+    height: 120px;
+    display:inline-block;
+    border-radius: 5px;
+}
+
+.rat{
+    background-image: url(mouse.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    
+    }
+
+.mouse{
+    background-image: url("");
+    background-repeat: no-repeat;
+}
+
+.overst{
+   font-size: 50px;
+   margin-top: 10%;
+   font-weight: 900;
+   text-align: center;
+   display: none;
+   color: rgb(212, 43, 13);
+}
+
+.scr{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(241, 43, 8);
+}
+.btn{
+    padding:10px 18px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    background-color: rgba(255,255,255,0);
+    cursor: pointer;
+    color: wheat;
+}
+
+.btn1{
+    padding:15px 25px;
+    width: 200px;
+    margin-left: 40%;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 15px;
+}
+.btn1:hover{
+    background-color: rgba(255,255,255,0);
+    cursor: pointer;
+    color: wheat;
+}
+
+@media (max-width: 992px) {
+
+    .firstdiv{
+        margin-top: 25%;
+        width: 100%;
+        height: 540px;
+        margin-left: 10%;
+    }
+}
